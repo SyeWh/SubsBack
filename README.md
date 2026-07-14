@@ -2,15 +2,15 @@
 
 A tiny Chrome extension that shows the subscriber count back under the channel name on YouTube watch pages — since YouTube removed it from the default UI.
 
-![Screenshot](SubsBack/Screenshot%201.jpg)
-
 ## What it does
 
 - Reads the channel link on the video you're watching
 - Grabs the subscriber count from the channel's own page (or reuses YouTube's hidden count when available)
 - Displays it under the channel name, styled to match YouTube's native look
 
-No accounts, no tracking, no data collection. It only reads public subscriber counts.
+It only reads public subscriber counts and places it under the channel name similar to how it was before the new UI update. That's literally it.
+
+![Screenshot](SubsBack/Screenshot%201.jpg)
 
 ## Install
 
