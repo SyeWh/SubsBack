@@ -1,0 +1,88 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  width: 260px;
+  background: #0f0f0f;
+  color: #f1f1f1;
+  font-family: Roboto, Arial, sans-serif;
+  padding: 16px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.logo { width: 34px; height: 34px; }
+
+.title { font-size: 16px; font-weight: 700; letter-spacing: 0.2px; }
+.sub   { font-size: 11px; color: #aaa; margin-top: 1px; }
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #1c1c1c;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* toggle switch */
+.switch { position: relative; display: inline-block; flex: none; }
+.switch input { position: absolute; opacity: 0; width: 0; height: 0; }
+.track {
+  display: block;
+  width: 36px; height: 20px;
+  background: #3d3d3d;
+  border-radius: 999px;
+  transition: background 0.15s ease;
+}
+.thumb {
+  position: absolute;
+  top: 2px; left: 2px;
+  width: 16px; height: 16px;
+  background: #f1f1f1;
+  border-radius: 50%;
+  transition: transform 0.15s ease;
+}
+.switch input:checked + .track { background: #f03; }
+.switch input:checked + .track .thumb { transform: translateX(16px); }
+.switch input:focus-visible + .track { outline: 2px solid #f03; outline-offset: 2px; }
+
+.status {
+  font-size: 11px;
+  color: #2ba640;
+  margin: 8px 2px 14px;
+}
+.status.off { color: #909090; }
+
+.donate {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: #39ff5a;
+  color: #111;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 9px 12px;
+}
+.donate:hover { background: #6cff5e; }
+
+.foot {
+  margin-top: 12px;
+  font-size: 10px;
+  color: #b3b3b3;
+  text-align: center;
+}
+
+a {
+    color: inherit; /* Inherits color from parent text */
+    text-decoration: none; /* Optional: removes the underline */
+}
