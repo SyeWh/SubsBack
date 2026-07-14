@@ -32,5 +32,5 @@ Click the extension icon to toggle it on/off. That's it — subscriber counts sh
 
 MIT
 
-![Screenshot](SubsBack/Screenshot 1.jpg)
-![Screenshot](SubsBack/Screenshot 2.jpg)
+![Screenshot](SubsBack/Screenshot%201.jpg)
+![Screenshot](SubsBack/Screenshot%202.jpg)
